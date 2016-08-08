@@ -1,0 +1,55 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFFACD"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="15dp"
+        android:layout_marginTop="15dp"
+        android:background="#FFD700"
+        android:textColor="#FFFFFF"
+        android:padding="30dp"
+        android:gravity="center"
+        android:text="Nifty Modal Dialog Effects" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:scrollbars="none">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="5dp">
+
+        <Button
+            android:id="@+id/fadein"
+            style="@style/my_btn"
+            android:text="Fade In"
+             />
+        <Button
+            android:id="@+id/slideleft"
+            style="@style/my_btn"
+            android:text="Slide Left"
+             />
+        <Button
+            android:id="@+id/slidetop"
+            style="@style/my_btn"
+            android:text="Slide Top"
+             />
+
+        <Button
+            android:id="@+id/fall"
+            style="@style/my_btn"
+            android:text="Fall"
+            />
+    </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>
